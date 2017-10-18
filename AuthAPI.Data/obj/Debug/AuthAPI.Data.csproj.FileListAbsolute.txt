@@ -1,0 +1,15 @@
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\AuthAPI.Data.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\AuthAPI.Data.pdb
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\Dapper.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\NLog.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\Npgsql.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\StackExchange.Redis.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\Dapper.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\NLog.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\Npgsql.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\StackExchange.Redis.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\repo\backend-auth-service\AuthAPI.Data\obj\Debug\AuthAPI.Data.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\AuthAPI.Data\obj\Debug\AuthAPI.Data.dll
+E:\repo\backend-auth-service\AuthAPI.Data\obj\Debug\AuthAPI.Data.pdb

@@ -1,0 +1,12 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-form" *ngIf="!forgotPasswordVisible">
+    <div class="form-group">
+        <input type="email" placeholder="email" value="a@a.a" name="login" formControlName="login" class="form-control input-lg">
+        <input type="password" value="P@ssw0rd" name="password" placeholder="password" formControlName="password" class="form-control input-lg">
+
+        <div class="error-message" *ngFor="let message of errorMessage">{{message}}</div>
+    </div>
+
+    <button type="submit" class="button-green" [disabled]="!loginForm.valid">Log In</button>
+    <a class="forgot-password" (click)="showForgotPasswordForm()">Forgot password</a>
+</form>
+<allegro-forgot-password  *ngIf="forgotPasswordVisible"></allegro-forgot-password>

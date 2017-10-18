@@ -1,0 +1,11 @@
+E:\repo\backend-auth-service\DeviceAuth.Data\bin\Debug\netcoreapp2.0\DeviceAuth.Models.dll
+E:\repo\backend-auth-service\DeviceAuth.Data\obj\Debug\netcoreapp2.0\DeviceAuth.Data.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\DeviceAuth.Data\obj\Debug\netcoreapp2.0\DeviceAuth.Data.csproj.CoreCompileInputs.cache
+E:\repo\backend-auth-service\DeviceAuth.Data\obj\Debug\netcoreapp2.0\DeviceAuth.Data.AssemblyInfoInputs.cache
+E:\repo\backend-auth-service\DeviceAuth.Data\obj\Debug\netcoreapp2.0\DeviceAuth.Data.AssemblyInfo.cs
+E:\repo\backend-auth-service\DeviceAuth.Data\bin\Debug\netcoreapp2.0\DeviceAuth.Data.deps.json
+E:\repo\backend-auth-service\DeviceAuth.Data\bin\Debug\netcoreapp2.0\DeviceAuth.Data.dll
+E:\repo\backend-auth-service\DeviceAuth.Data\bin\Debug\netcoreapp2.0\DeviceAuth.Data.pdb
+E:\repo\backend-auth-service\DeviceAuth.Data\bin\Debug\netcoreapp2.0\DeviceAuth.Models.pdb
+E:\repo\backend-auth-service\DeviceAuth.Data\obj\Debug\netcoreapp2.0\DeviceAuth.Data.dll
+E:\repo\backend-auth-service\DeviceAuth.Data\obj\Debug\netcoreapp2.0\DeviceAuth.Data.pdb

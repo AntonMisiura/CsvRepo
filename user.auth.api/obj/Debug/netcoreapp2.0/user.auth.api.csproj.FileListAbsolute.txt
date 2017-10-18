@@ -1,0 +1,11 @@
+E:\repo\backend-auth-service\user.auth.api\bin\Debug\netcoreapp2.0\user.auth.api.deps.json
+E:\repo\backend-auth-service\user.auth.api\bin\Debug\netcoreapp2.0\user.auth.api.runtimeconfig.json
+E:\repo\backend-auth-service\user.auth.api\bin\Debug\netcoreapp2.0\user.auth.api.runtimeconfig.dev.json
+E:\repo\backend-auth-service\user.auth.api\bin\Debug\netcoreapp2.0\user.auth.api.dll
+E:\repo\backend-auth-service\user.auth.api\bin\Debug\netcoreapp2.0\user.auth.api.pdb
+E:\repo\backend-auth-service\user.auth.api\obj\Debug\netcoreapp2.0\user.auth.api.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\user.auth.api\obj\Debug\netcoreapp2.0\user.auth.api.csproj.CoreCompileInputs.cache
+E:\repo\backend-auth-service\user.auth.api\obj\Debug\netcoreapp2.0\user.auth.api.AssemblyInfoInputs.cache
+E:\repo\backend-auth-service\user.auth.api\obj\Debug\netcoreapp2.0\user.auth.api.AssemblyInfo.cs
+E:\repo\backend-auth-service\user.auth.api\obj\Debug\netcoreapp2.0\user.auth.api.dll
+E:\repo\backend-auth-service\user.auth.api\obj\Debug\netcoreapp2.0\user.auth.api.pdb

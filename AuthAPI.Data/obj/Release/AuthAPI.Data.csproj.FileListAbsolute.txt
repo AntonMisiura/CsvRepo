@@ -1,0 +1,15 @@
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\AuthAPI.Data.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\AuthAPI.Data.pdb
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\Dapper.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\NLog.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\Npgsql.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\StackExchange.Redis.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\System.Threading.Tasks.Extensions.dll
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\Dapper.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\NLog.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\Npgsql.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\StackExchange.Redis.xml
+E:\repo\backend-auth-service\AuthAPI.Data\bin\Release\System.Threading.Tasks.Extensions.xml
+E:\repo\backend-auth-service\AuthAPI.Data\obj\Release\AuthAPI.Data.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\AuthAPI.Data\obj\Release\AuthAPI.Data.dll
+E:\repo\backend-auth-service\AuthAPI.Data\obj\Release\AuthAPI.Data.pdb

@@ -1,0 +1,8 @@
+<form [formGroup]="facebookRequest" (ngSubmit)="onSubmit()" class="login-form">
+  <h4>{{fbUser.userData.name}}</h4>
+    <div class="form-group">
+        <input type="email" placeholder="email" value="a@a.a" name="login" formControlName="email" class="form-control input-lg">
+    </div>
+    <button type="submit" class="button-green" [disabled]="!facebookRequest.valid">Log In</button>
+
+</form>

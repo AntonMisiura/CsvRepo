@@ -1,0 +1,7 @@
+E:\repo\backend-auth-service\AuthAPI.Helpers\bin\Release\AuthAPI.Helpers.dll
+E:\repo\backend-auth-service\AuthAPI.Helpers\bin\Release\AuthAPI.Helpers.pdb
+E:\repo\backend-auth-service\AuthAPI.Helpers\bin\Release\NLog.dll
+E:\repo\backend-auth-service\AuthAPI.Helpers\bin\Release\NLog.xml
+E:\repo\backend-auth-service\AuthAPI.Helpers\obj\Release\AuthAPI.Helpers.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\AuthAPI.Helpers\obj\Release\AuthAPI.Helpers.dll
+E:\repo\backend-auth-service\AuthAPI.Helpers\obj\Release\AuthAPI.Helpers.pdb

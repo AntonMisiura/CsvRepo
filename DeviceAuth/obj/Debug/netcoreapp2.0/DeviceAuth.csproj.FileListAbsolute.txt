@@ -1,0 +1,17 @@
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.deps.json
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.runtimeconfig.json
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.runtimeconfig.dev.json
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.dll
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.pdb
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.Data.dll
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.Models.dll
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceJWTGenerator.dll
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.Data.pdb
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceJWTGenerator.pdb
+E:\repo\backend-auth-service\DeviceAuth\bin\Debug\netcoreapp2.0\DeviceAuth.Models.pdb
+E:\repo\backend-auth-service\DeviceAuth\obj\Debug\netcoreapp2.0\DeviceAuth.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\DeviceAuth\obj\Debug\netcoreapp2.0\DeviceAuth.csproj.CoreCompileInputs.cache
+E:\repo\backend-auth-service\DeviceAuth\obj\Debug\netcoreapp2.0\DeviceAuth.AssemblyInfoInputs.cache
+E:\repo\backend-auth-service\DeviceAuth\obj\Debug\netcoreapp2.0\DeviceAuth.AssemblyInfo.cs
+E:\repo\backend-auth-service\DeviceAuth\obj\Debug\netcoreapp2.0\DeviceAuth.dll
+E:\repo\backend-auth-service\DeviceAuth\obj\Debug\netcoreapp2.0\DeviceAuth.pdb

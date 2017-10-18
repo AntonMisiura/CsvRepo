@@ -1,0 +1,25 @@
+{
+
+  "GoogleApp": {
+    "client_id": "27904284775-2fgvom9li6v7uv8b8cjvv1iktsaokbf1.apps.googleusercontent.com",
+    "cookiepolicy": "single_host_origin",
+    "scope": "profile email",
+    "ux_mode": "popup",
+    "redirect_uri": "http://localhost:4200"
+  },
+  "FacebookApp": {
+    "appId": "720460194825623",
+    "cookie": "true",
+    "xfbml": "true",
+    "version": "v2.8"
+  },
+  "GoogleScope": [ "profile", "email" ],
+  "FacebookScope": [ "public_profile", "email" ],
+  "FacebookFields": [ "name", "email" ],
+  "APIHost": "http://localhost:65088",
+  "SignOutRedirect": "/",
+  "RegistrationRedirect": "/loginpage",
+  "RestorePasswordRedirect": "/restorepassword",
+  "RestorePasswordCompleteRedirect": "/loginpage"
+
+}

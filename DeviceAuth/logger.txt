@@ -1,0 +1,238 @@
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 501.1894ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 26.2198ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/  
+Executing action method DeviceAuth.Controllers.HomeController.Index (DeviceAuth) with arguments ((null)) - ModelState is Valid
+Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+Executed action DeviceAuth.Controllers.HomeController.Index (DeviceAuth) in 3678.1313ms
+Request finished in 3758.5965ms 200 text/html; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 33.2115ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 390.9971ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/api/Auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 17006.8986ms
+Request finished in 17038.0586ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:10743/api/Auth/EF5ON3EOVH9X37 application/json-patch+json 264
+Executing action method DeviceAuth.Controllers.AuthController.Post (DeviceAuth) with arguments (EF5ON3EOVH9X37, Random payload: 47c0e2cd5a32100d395d72cdada4ba850bccc65ca832c107ee051be491908ea2 Server signature: b4577e98cd8498e7a07351eb51186558cfd84782a79ed4803886588728c31836 Device sinature: 24f46f7beee2eb9c52bad19a5caa05862f0790f285c2a045ffe589762d00d6f6) - ModelState is Valid
+Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+Executed action DeviceAuth.Controllers.AuthController.Post (DeviceAuth) in 97.2824ms
+Request finished in 144.5328ms 200 text/plain; charset=utf-8
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 361.8054ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 10.5921ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 97.2523ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 348.1707ms 200 application/json
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 325.5371ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 5.143ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 33.9917ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 373.2487ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/Auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 35772.8034ms
+Request finished in 35872.1274ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:10743/Auth/EF5ON3EOVH9X37 application/json-patch+json 264
+Executing action method DeviceAuth.Controllers.AuthController.Post (DeviceAuth) with arguments (EF5ON3EOVH9X37, Random payload: b06526b4e9067abd778f03cbe0324cd4e549f0360e860137d23a54a9629b7a3e Server signature: 8ab1590336f3de034f06e49efd69c6ef43c18f06bc23a4abb3b5938990af1a60 Device sinature: 15a4e6f191f57a6e8b765928ea6db895c2eae159f07525ca2468cf32fd0affc4) - ModelState is Valid
+Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+Executed action DeviceAuth.Controllers.AuthController.Post (DeviceAuth) in 272.7129ms
+Request finished in 307.7245ms 200 text/plain; charset=utf-8
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 294.0219ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 3.7389ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 34.9706ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 303.7263ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 3096.1553ms
+Request finished in 3218.2604ms 200 application/json; charset=utf-8
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 291.5739ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 5.3351ms 404 
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 462.0146ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 5.7987ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 107.1925ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/css/screen.css  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/css/reset.css  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/css/typography.css  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/jquery-1.8.0.min.js  
+The file /css/reset.css was not modified
+The file /lib/jquery-1.8.0.min.js was not modified
+The file /css/typography.css was not modified
+The file /css/screen.css was not modified
+Request finished in 53.5456ms 304 application/javascript
+Request finished in 72.6134ms 304 text/css
+Request finished in 111.5916ms 304 text/css
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/handlebars-4.0.5.js  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/jquery.wiggle.min.js  
+Request finished in 54.2202ms 304 text/css
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/lodash.min.js  
+The file /lib/jquery.wiggle.min.js was not modified
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/jquery.ba-bbq.min.js  
+The file /lib/handlebars-4.0.5.js was not modified
+Request finished in 30.0036ms 304 application/javascript
+The file /lib/lodash.min.js was not modified
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/backbone-min.js  
+Request finished in 41.9157ms 304 application/javascript
+Request finished in 51.9648ms 304 application/javascript
+The file /lib/jquery.ba-bbq.min.js was not modified
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/swagger-ui.min.js  
+Request finished in 70.5488ms 304 application/javascript
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/highlight.9.1.0.pack.js  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/highlight.9.1.0.pack_extended.js  
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 302.5801ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 17.7621ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 46.438ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/highlight.9.1.0.pack.js  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/backbone-min.js  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/jquery.slideto.min.js  
+Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+Request finished in 32.211ms 200 application/javascript
+Request finished in 32.1767ms 200 application/javascript
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/swagger-ui.min.js  
+Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/marked.js  
+Request finished in 140.6505ms 200 application/javascript
+Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+Request finished in 77.7953ms 200 application/javascript
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/jsoneditor.min.js  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/swagger-oauth.js  
+Request finished in 197.6875ms 200 application/javascript
+Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/lib/highlight.9.1.0.pack_extended.js  
+Request finished in 44.1362ms 200 application/javascript
+Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+Request finished in 314.6932ms 200 application/javascript
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/images/logo_small.png  
+Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+Request finished in 427.1277ms 200 application/javascript
+The file /images/logo_small.png was not modified
+Request finished in 200.6955ms 304 image/png
+Request finished in 566.3978ms 200 application/javascript
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/css/print.css  
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+The file /css/print.css was not modified
+Request finished in 133.0987ms 304 text/css
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/images/favicon-32x32.png  
+The file /images/favicon-32x32.png was not modified
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/images/favicon-16x16.png  
+The file /images/favicon-16x16.png was not modified
+Request finished in 22.2652ms 304 image/png
+Request finished in 575.5672ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/images/throbber.gif  
+The file /images/throbber.gif was not modified
+Request finished in 17.3477ms 304 image/gif
+Request starting HTTP/1.1 GET http://localhost:10743/auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 47992.3195ms
+Request finished in 48081.5998ms 200 application/json; charset=utf-8
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 402.1914ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 14.2558ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 45.1961ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 318.349ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 20706.9492ms
+Request finished in 20797.6724ms 200 application/json; charset=utf-8
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 364.5752ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 4.305ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 63.141ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 372.7609ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 17189.3021ms
+Request finished in 17268.8965ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:10743/auth/EF5ON3EOVH9X37 application/json-patch+json 265
+Executing action method DeviceAuth.Controllers.AuthController.Post (DeviceAuth) with arguments (EF5ON3EOVH9X37, Random payload: 849ec0c61c38759f9b5ead103d7a8c36507c31ed5e06d2251404e5891f5efe85 Server signature: 4623fb66dff00899a6ed085e42464979fda89e28e900481673826c3cad41dab0 Device sinature: f4980b816474929eb277264b06ad639927f36cce3dd70de66551b6a1be72b705) - ModelState is Valid
+Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+Executed action DeviceAuth.Controllers.AuthController.Post (DeviceAuth) in 199.9941ms
+Request finished in 249.0315ms 200 text/plain; charset=utf-8
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 358.9892ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 8.9166ms 404 
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 378.5184ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 6.5642ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/  
+Executing action method DeviceAuth.Controllers.HomeController.Index (DeviceAuth) with arguments ((null)) - ModelState is Valid
+Processing request
+Request starting HTTP/1.1 GET http://localhost:10743/api/values  
+Request finished in 259.0554ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/favicon.ico  
+Request finished in 4.4679ms 404 
+Request starting HTTP/1.1 GET http://localhost:10743/  
+Executing action method DeviceAuth.Controllers.HomeController.Index (DeviceAuth) with arguments ((null)) - ModelState is Valid
+Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+Executed action DeviceAuth.Controllers.HomeController.Index (DeviceAuth) in 3169.2525ms
+Request finished in 3243.1611ms 200 text/html; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/  
+Sending file. Request path: '/index.html'. Physical path: 'N/A'
+Request finished in 25.3757ms 200 text/html
+Request starting HTTP/1.1 GET http://localhost:10743/swagger/v1/swagger.json  
+Request finished in 270.1211ms 200 application/json
+Request starting HTTP/1.1 GET http://localhost:10743/auth/EF5ON3EOVH9X37  
+Executing action method DeviceAuth.Controllers.AuthController.Get (DeviceAuth) with arguments (EF5ON3EOVH9X37) - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action DeviceAuth.Controllers.AuthController.Get (DeviceAuth) in 9267.3915ms
+Request finished in 9302.3641ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 POST http://localhost:10743/auth/EF5ON3EOVH9X37 application/json-patch+json 264
+Executing action method DeviceAuth.Controllers.AuthController.Post (DeviceAuth) with arguments (EF5ON3EOVH9X37, Random payload: 3c9d5fca45ea0b1215f433d6ad63f717768fbe0421a93495572b66fa3b043b8f Server signature: 38cc9d1fea65b8f0ee5e42d35f343284d399dc743b14d7e75e22abd727ca93d3 Device sinature: dce671bddfe5d6beb557bd80af54ac098d551a6b9b8f53d99a2805c0d620ed62) - ModelState is Valid
+Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+Executed action DeviceAuth.Controllers.AuthController.Post (DeviceAuth) in 145.824ms
+Request finished in 179.5579ms 200 text/plain; charset=utf-8

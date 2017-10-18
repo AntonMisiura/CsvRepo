@@ -1,0 +1,77 @@
+login(options?: any): Promise<any> {
+    return new Promise<any>((resolve, reject) => {
+      try {
+        FB.login((response: FBModels.AuthResponseObj) => {
+          if (response.authResponse) {
+
+            if (response.status === 'connected') {
+              this.fetchUserInfo(this.fields).then((res) => {
+                var obj = { authRes: response, userData: res }
+                this.getUserData(obj, true)
+                resolve(obj);
+              });
+
+            }
+            resolve(response);
+          } else {
+            reject();
+          }
+        }, options);
+      } catch (e) {
+        reject(e);
+      }
+
+    });
+
+  }
+  isSignedIn() {
+    return new Promise<any>((resolve, reject) => {
+      try {
+        FB.getLoginStatus((response) => {
+          if (response.status === 'connected') {
+            console.log("Status is true")
+            resolve(true)
+          }
+          else {
+            console.log("Status is false")
+            resolve(false)
+          }
+        });
+      }
+      catch (e) {
+        reject(e)
+      }
+    })
+  
+ 
+  }
+  getLoginStatus(): Promise<any> {
+    return new Promise<any>((resolve, reject) => {
+      try {
+        FB.getLoginStatus((response) => {
+          if (response.status === 'connected') {
+            this.fetchUserInfo(this.fields).then((res) => {
+              var obj = { authRes: response, userData: res }
+              this.getUserData(obj, false)
+              resolve(obj);
+            });
+          }
+          resolve(response)
+        });
+      }
+      catch (e) {
+        reject(e)
+      }
+    })
+  }
+  logout(): Promise<any> {
+    return new Promise<any>((resolve, reject) => {
+      try {
+        FB.logout((response: any) => {
+          resolve(response);
+        });
+      } catch (e) {
+        reject(e);
+      }
+    });
+  }

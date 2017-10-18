@@ -1,0 +1,11 @@
+E:\repo\backend-auth-service\DeviceJWTGenerator\bin\Debug\netcoreapp2.0\DeviceAuth.Models.dll
+E:\repo\backend-auth-service\DeviceJWTGenerator\obj\Debug\netcoreapp2.0\DeviceJWTGenerator.csprojResolveAssemblyReference.cache
+E:\repo\backend-auth-service\DeviceJWTGenerator\obj\Debug\netcoreapp2.0\DeviceJWTGenerator.csproj.CoreCompileInputs.cache
+E:\repo\backend-auth-service\DeviceJWTGenerator\obj\Debug\netcoreapp2.0\DeviceJWTGenerator.AssemblyInfoInputs.cache
+E:\repo\backend-auth-service\DeviceJWTGenerator\obj\Debug\netcoreapp2.0\DeviceJWTGenerator.AssemblyInfo.cs
+E:\repo\backend-auth-service\DeviceJWTGenerator\bin\Debug\netcoreapp2.0\DeviceJWTGenerator.deps.json
+E:\repo\backend-auth-service\DeviceJWTGenerator\bin\Debug\netcoreapp2.0\DeviceJWTGenerator.dll
+E:\repo\backend-auth-service\DeviceJWTGenerator\bin\Debug\netcoreapp2.0\DeviceJWTGenerator.pdb
+E:\repo\backend-auth-service\DeviceJWTGenerator\bin\Debug\netcoreapp2.0\DeviceAuth.Models.pdb
+E:\repo\backend-auth-service\DeviceJWTGenerator\obj\Debug\netcoreapp2.0\DeviceJWTGenerator.dll
+E:\repo\backend-auth-service\DeviceJWTGenerator\obj\Debug\netcoreapp2.0\DeviceJWTGenerator.pdb

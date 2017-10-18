@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - user_office_api</title>
+    <base href="~/" />
+
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/dist/styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/bootstrap-datetimepicker.min.css" />
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH2sGWoVjvcKRTBQ8TYz-DVNIZOgDjxWY"></script>
+
+    <style>
+        #map {
+            width: 100%;
+            height: 600px;
+            margin-top: 100px;
+        }
+
+        #showSecondMapBtn {
+            margin-top: 100px;
+        }
+        
+        #map_canvas {
+            width: 100%;
+            height: 600px;
+            margin-top: 100px;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <script src="~/bundle.js"></script>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
+    </environment>
+</head>
+<body>
+    @RenderBody()
+   
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="~/moment.min.js"></script>
+    <script type="text/javascript" src="~/bootstrap-datetimepicker.min.js"></script>
+   
+   
+    <script>
+         var w = new Widget();
+
+    </script>
+</body>
+</html>

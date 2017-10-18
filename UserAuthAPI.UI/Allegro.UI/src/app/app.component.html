@@ -1,0 +1,12 @@
+<div *ngIf="!appUser.isLoggedIn">
+    <a routerLink="/user/login">Login</a>
+    <a routerLink="/user/register">Register</a>
+
+</div>
+<div *ngIf="appUser.isLoggedIn">
+    <a routerLink="/office"> Hello, {{appUser.userName}}</a>
+    <button type="button" (click)="logOut()">Sign Out</button>
+</div>
+
+
+<router-outlet></router-outlet>
