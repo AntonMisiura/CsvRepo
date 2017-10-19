@@ -41,42 +41,64 @@ namespace AdminDashboard.CsvExport.Impl
 
         public List<CsvValues> PushToCsvList(List<ImuData> imuData, List<GpsData> gpsData, List<ObdData> obdData)
         {
-            var csvValues =
+            var imuDates =
                 imuData.Select(imu => new CsvValues()
                 {
-                    device_timestamp = imu.device_timestamp,
-                    acc_x = imu.acc_x,
-                    acc_y = imu.acc_y,
-                    acc_z = imu.acc_z,
-                    mag_x = imu.mag_x,
-                    mag_y = imu.mag_y,
-                    mag_z = imu.mag_z,
-                    gyro_xangle = imu.gyro_xangle,
-                    gyro_yangle = imu.gyro_yangle,
-                    gyro_zangle = imu.gyro_zangle
+                    device_timestamp = imu.device_timestamp
                 }).ToList();
 
-            foreach (var csvObj in csvValues)
+            var obdDates =
+                obdData.Select(obd => new CsvValues()
+                {
+                    device_timestamp = obd.device_timestamp
+                }).ToList();
+
+            var gpsDates =
+                gpsData.Select(gps => new CsvValues()
+                {
+                    device_timestamp = gps.device_timestamp
+                }).ToList();
+
+            imuDates.AddRange(obdDates);
+            imuDates.AddRange(gpsDates);
+            var csvValues = imuDates.OrderBy(i => i.device_timestamp).ToList();
+
+            foreach (var csv in csvValues)
             {
-                var nearestObdRecord = obdData
-                    //.OrderBy(obd => Math.Abs(obd.unix_timestamp - csvObj.timestamp))
-                    .OrderBy(obd => obd.device_timestamp - csvObj.device_timestamp)
-                    .First();
+                foreach (var gps in gpsData)
+                {
+                    if (DateTime.Compare(csv.device_timestamp, gps.device_timestamp) == 1)
+                    {
+                        csv.attitude = gps.attitude;
+                        csv.longitude = gps.longitude;
+                        csv.latitude = gps.latitude;
+                        csv.track = gps.track;
+                    }
+                }
 
-                //csvObj.pid = nearestObdRecord.pid;
-                //csvObj.obd_event_id = nearestObdRecord.event_id;
-                csvObj.pidValue = nearestObdRecord.value;
+                foreach (var obd in obdData)
+                {
+                    if (DateTime.Compare(csv.device_timestamp, obd.device_timestamp) == 1)
+                    {
+                        csv.pidValue = obd.value;
+                    }
+                }
 
-                var nearestGpsRecord = gpsData
-                    //.OrderBy(gps => Math.Abs(gps.unix_timestamp - csvObj.timestamp))
-                    .OrderBy(gps => gps.device_timestamp - csvObj.device_timestamp)
-                    .First();
-
-                //csvObj.gps_event_id = nearestGpsRecord.event_id;
-                csvObj.track = nearestGpsRecord.track;
-                csvObj.latitude = nearestGpsRecord.latitude;
-                csvObj.attitude = nearestGpsRecord.attitude;
-                csvObj.longitude = nearestGpsRecord.longitude;
+                foreach (var imu in imuData)
+                {
+                    if (DateTime.Compare(csv.device_timestamp, imu.device_timestamp) == 1)
+                    {
+                        csv.acc_x = imu.acc_x;
+                        csv.acc_y = imu.acc_y;
+                        csv.acc_z = imu.acc_z;
+                        csv.mag_x = imu.mag_x;
+                        csv.mag_y = imu.mag_y;
+                        csv.mag_z = imu.mag_z;
+                        csv.gyro_xangle = imu.gyro_xangle;
+                        csv.gyro_yangle = imu.gyro_yangle;
+                        csv.gyro_zangle = imu.gyro_zangle;
+                    }
+                }
             }
 
             return csvValues;
@@ -179,10 +201,6 @@ namespace AdminDashboard.CsvExport.Impl
                 var j = i;
                 csvValues.ForEach(c => c.track = trackArr[j]);
             }
-
-            //var pidArr = csvValues.Select(csv => csv.pid).ToArray();
-            //var obdEventIdArr = csvValues.Select(csv => csv.obd_event_id).ToArray();
-            //var gpsEventIdArr = csvValues.Select(csv => csv.gps_event_id).ToArray();
 
             return csvValues;
         }
